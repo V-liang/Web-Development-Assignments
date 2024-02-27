@@ -1,0 +1,48 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 6
+   Coding Challenge 1
+   
+   Author:   Vincent Liang
+   Date:     08/10/2023
+   Filename: code6-1_table.css
+
+*/
+
+/* a. Style for the table element */
+table {
+   border: 20px grooved gray;
+   border-collapse: collapse;
+}
+
+/* b. Style for th and td elements */
+th, td {
+   border: 1px solid gray;
+   padding: 5px;
+   vertical-align: top;
+   text-align: left;
+}
+
+/* c. Style for the caption element */
+caption {
+   caption-side: top-left; /* This might not be supported in all browsers. */
+   font-size: 1.5em;
+}
+
+/* d. Style for the firstCol */
+#firstCol {
+   background-color: yellow;
+   width: 150px;
+}
+
+/* e. Style for the hourCols */
+#hourCols {
+   width: 75px;
+}
+
+/* f. Style for the thead element */
+thead {
+   background-color: aqua;
+}
